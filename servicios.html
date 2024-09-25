@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+<meta charset="utf-8">
+	<title> Servicios </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href= "estilos.css" />
+<link href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+<body> 
+<header>
+	<a href="#" onClick="MiFuncion();" class="icono"><i class="fa fa-bars"></i></a>
+	<a href="index.html"><img src="logo.png"></a>
+<nav id="navegador" class=" "> 
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="nosotros.html">Nosotros</a></li>
+	<li><a href="servicios.html">Servicios</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+	</header>
+	
+<main class="cajacontenedora">
+	<img src="servicios.png"  srcset= "servicios-1920w.png 1920w"
+	sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" class= "imgservicios" alt="Servicios">
+	<img src="servicios1.png"  srcset= "servicios1-1920w.png 1920w"
+	sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" class= "imgservicios1" alt= "Servicios">
+	<img src="servicios2.png" srcset= "servicios2-1920w.png 1920w"
+	sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" class= "imgservicios2" alt= "Servicios">
+	<img src="servicios3.png" srcset= "servicios3-1920w.png 1920w"
+	sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" class= "imgservicios3" alt= "Servicios">
+	<img src="servicios4.png" srcset= "servicios4-1920w.png 1920w"
+	sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" class= "imgservicios4" alt= "Servicios">
+	</main>
+
+<footer><div class="footer-container">
+	<div class="contact-info">
+	  <h3>RV salud y odontología </h3>
+	  <p>Dirección: Camargo 1146, Merlo, Buenos Aires, Argetina </p>
+	  <p>Teléfono: +54 911 5910-9926</p>
+	  <p>Email: consultoriorv@gmail.com </p>
+	  <p>Horario: Lunes a Viernes, 9:00 AM - 6:00 PM</p>
+	</div>
+	
+	<div class="quick-links">
+	  <h3>Enlaces Rápidos</h3>
+	  <ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="servicios.html">Servicios</a></li>
+		<li><a href="nosotros.html">Sobre Nosotros</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+	  </ul>
+	</div>
+
+	<div class="footer-bottom">
+	  <p>© 2024 RV salud y odontología. Todos los derechos reservados.</p>
+	</div>
+</footer>
+
+<script>
+	function MiFuncion() {
+       // aquí se define el ID del elemento que va a tomar la clase
+     var x = document.getElementById("navegador");
+     if (x.className === " ") {
+         // esta es la clase que se agrega al elemento con eo id="navegador"
+       x.className += "responsive";
+     } else {
+       x.className = " ";
+     }
+}
+
+</script>
+</body>
+</html>

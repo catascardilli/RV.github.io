@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 10;
+  padding: 0;
+}
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+header .icono {
+  color: #db0080;
+  position: absolute;
+  right: 10px;
+  font-size: 30px;
+}
+nav {
+  display: none;
+}
+
+.responsive {
+  display: block;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  border: 1px solid #db0080;
+  color: #db0080;
+  padding: 6px;
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: #db0080;
+}
+h1 {
+  color: #db0080;
+}
+h2 {
+  color: #db0080;
+  padding: 6px;
+  text-decoration: none;
+  display: block;
+  line-height: 1;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+footer {
+  align-content: center;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  background-color: #e793b6b6;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-info,
+.quick-links,
+.legal-info {
+  color: #db0080;
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #db0080;
+}
+
+.footer-container img {
+  width: 24px;
+  height: 24px;
+  margin: 0 5px;
+}
+.slider {
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mySlides img {
+    width: 100%;
+    height: auto;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border: none;
+    background-color: #db0080;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+
+  @media (min-width: 1024px) {
+    nav {
+      display: block;
+    }
+    nav li {
+      display: none;
+    }
+    .icono {
+      display: none;
+    }
+    .cajacontenedora {
+      display: flex;
+      flex-flow: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .imgbienvenidos {
+      width: 60%;
+    }
+    .imglocacion {
+      width: 45%;
+    }
+    .imgespecialidades {
+      width: 50%;
+      margin: 40px;
+    }
+    .imgnosotros {
+      width: 60%;
+    }
+    .imgodontologia {
+      width: 45%;
+    }
+    .acercade {
+      width: 45%;
+      text-align: center;
+    }
+    .imgromina {
+      width: 60%;
+      margin: 40px;
+    }
+    .imgservicios {
+      width: 60%;
+    }
+    .imgservicios1 {
+      width: 42%;
+    }
+    .imgservicios2 {
+      width: 42%;
+    }
+    .imgservicios3 {
+      width: 42%;
+    }
+    .imgservicios4 {
+      width: 42%;
+    }
+    .contacto {
+      text-align: center;
+    }
+    .imgcontacto {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+      display: block;
+    }
+    .cajacontenedora div {
+      width: 25%;
+      text-align: center;
+    }
+    .slider {
+      width: 100%;
+      max-width: 800px;
+    }
+  }
+}
