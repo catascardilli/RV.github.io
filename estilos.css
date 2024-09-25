@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 * {
-  margin: 10;
+  margin: 0;
   padding: 0;
 }
 body {
@@ -144,114 +144,118 @@ footer {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  .mySlides {
+}
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  transition: 0.6s ease;
+  border: none;
+  background-color: #db0080;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    width: 100px;
+    padding: 10px;
+  }
+  nav {
+    display: block;
+  }
+  nav li {
     display: none;
   }
-
-  .mySlides img {
+  .icono {
+    display: none;
+  }
+  .cajacontenedora {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgbienvenidos {
+    width: 60%;
+  }
+  .imglocacion {
+    width: 45%;
+  }
+  .imgespecialidades {
+    width: 50%;
+    margin: 40px;
+  }
+  .imgnosotros {
+    width: 60%;
+  }
+  .imgodontologia {
+    width: 45%;
+  }
+  .acercade {
+    width: 45%;
+    text-align: center;
+  }
+  .imgromina {
+    width: 60%;
+    margin: 40px;
+  }
+  .imgservicios {
+    width: 60%;
+  }
+  .imgservicios1 {
+    width: 42%;
+  }
+  .imgservicios2 {
+    width: 42%;
+  }
+  .imgservicios3 {
+    width: 42%;
+  }
+  .imgservicios4 {
+    width: 42%;
+  }
+  .contacto {
+    text-align: center;
+  }
+  .imgcontacto {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    display: block;
+  }
+  .cajacontenedora div {
+    width: 25%;
+    text-align: center;
+  }
+  .slider {
     width: 100%;
-    height: auto;
-  }
-
-  .mySlides img {
-    width: 100%;
-    height: auto;
-  }
-
-  .prev,
-  .next {
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    transition: 0.6s ease;
-    border: none;
-    background-color: #db0080;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  .prev {
-    left: 10px;
-  }
-
-  .next {
-    right: 10px;
-  }
-
-  @media (min-width: 1024px) {
-    nav {
-      display: block;
-    }
-    nav li {
-      display: none;
-    }
-    .icono {
-      display: none;
-    }
-    .cajacontenedora {
-      display: flex;
-      flex-flow: wrap;
-      align-items: center;
-      justify-content: center;
-    }
-    .imgbienvenidos {
-      width: 60%;
-    }
-    .imglocacion {
-      width: 45%;
-    }
-    .imgespecialidades {
-      width: 50%;
-      margin: 40px;
-    }
-    .imgnosotros {
-      width: 60%;
-    }
-    .imgodontologia {
-      width: 45%;
-    }
-    .acercade {
-      width: 45%;
-      text-align: center;
-    }
-    .imgromina {
-      width: 60%;
-      margin: 40px;
-    }
-    .imgservicios {
-      width: 60%;
-    }
-    .imgservicios1 {
-      width: 42%;
-    }
-    .imgservicios2 {
-      width: 42%;
-    }
-    .imgservicios3 {
-      width: 42%;
-    }
-    .imgservicios4 {
-      width: 42%;
-    }
-    .contacto {
-      text-align: center;
-    }
-    .imgcontacto {
-      width: 60%;
-      margin: auto;
-      text-align: center;
-      display: block;
-    }
-    .cajacontenedora div {
-      width: 25%;
-      text-align: center;
-    }
-    .slider {
-      width: 100%;
-      max-width: 800px;
-    }
+    max-width: 800px;
   }
 }
