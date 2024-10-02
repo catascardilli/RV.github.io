@@ -138,7 +138,7 @@ footer {
   max-width: 100%;
   position: relative;
   margin: 0 auto;
-  padding:10px;
+  padding: 10px;
 }
 
 .slider {
@@ -181,6 +181,18 @@ footer {
 
 .next {
   right: 10px;
+}
+
+.anunciowarner {
+  width: 300px;
+  height: 600px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.cajacontanuncio {
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 1024px) {
@@ -258,5 +270,11 @@ footer {
   .slider {
     width: 100%;
     max-width: 800px;
+  }
+  .anunciowarner {
+    width: 728px x 90px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
