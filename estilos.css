@@ -138,6 +138,7 @@ footer {
   max-width: 100%;
   position: relative;
   margin: 0 auto;
+  padding:10px;
 }
 
 .slider {
@@ -184,7 +185,7 @@ footer {
 
 @media (min-width: 1024px) {
   .logo {
-    width: 100px;
+    width: 80px;
     padding: 10px;
   }
   nav {
