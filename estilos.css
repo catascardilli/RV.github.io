@@ -195,8 +195,25 @@ footer {
   justify-content: center;
 }
 
-.formulario { padding: 30px; justify-content: center; margin-bottom: 20px;}
-.mapa {padding: 20px; width: 300px;}
+.formulario {
+  padding: 30px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.mapa {
+  padding: 20px;
+  width: 300px;
+}
+
+.acercade {
+  padding: 20px;
+}
+
+.tituloconsul {
+  padding: 20px;
+}
+
+.libreria { width: 75%; padding:20px;}
 
 @media (min-width: 1024px) {
   .logo {
@@ -274,16 +291,21 @@ footer {
     width: 100%;
     max-width: 800px;
   }
-  
-  .anunciowarner {
 
+  .anunciowarner {
     width: 728px;
     height: 90px;
     object-fit: cover;
     padding-bottom: 20px;
-
   }
-.mapa{ width: 60%;
-margin: auto;}
+  .mapa {
+    width: 60%;
+    margin: auto;
+  }
+  .tituloconsul {
+    text-align: center;
+    padding: 20px;
+  }
 
+  .libreria { width:auto; padding: 20px; text-align: center;}
 }
