@@ -213,6 +213,8 @@ footer {
   padding: 20px;
 }
 
+.libreria { width: 75%; padding:20px;}
+
 @media (min-width: 1024px) {
   .logo {
     width: 80px;
@@ -304,4 +306,6 @@ footer {
     text-align: center;
     padding: 20px;
   }
+
+  .libreria { width:auto; padding: 20px; text-align: center;}
 }
