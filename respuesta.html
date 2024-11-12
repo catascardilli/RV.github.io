@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Confirmación de Envío</title>
     <style>
         body {
@@ -16,16 +19,34 @@
         h1 {
             color: #db0080;
         }
-        
-        p { color: #4CAF50;}
+        p {
+            font-size: 18px;
+        }
+        .boton-regreso {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #db0080; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .boton-regreso:hover {
+            background-color: #db0080;
+        }
     </style>
 </head>
 <body>
     <h1>¡Gracias por tu mensaje!</h1>
     <img
-    style="width: 250px; margin: 40px"
+    style="width: 100px; margin: 5px"
     src="https://catascardilli.github.io/RV.github.io/logo500x500.png"
   />
     <p>Tu formulario se envió correctamente. Te responderemos a la brevedad.</p>
+    
+   
+    <a href="index.html" class="boton-regreso">Regresar a la Página Inicial</a>
 </body>
 </html>
